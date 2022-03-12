@@ -344,6 +344,7 @@ p{
 .how-it-work__consultation_and_img{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .how-it-work{
     margin-bottom:85px ;
@@ -381,6 +382,9 @@ p{
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+
 }
 
 .footer-nav>li{
@@ -402,22 +406,53 @@ p{
 .footer-sotial>a{
     margin-right:25px;
 }
-.footerlist>img{
-    margin-bottom:20px ;
-
+.logofooter {
+    margin-bottom: 100px;
 }
 .color{
     color:#CACACA;
     margin-bottom: 25px;
 }
-input{
+.inputs>input{
     width:570px ;
     padding-top:14px ;
     padding-bottom:14px ;
     padding-left:24px ;
     background-color: #414141;
     border:none;
+    color: #CACACA;
 }
 .inputs{
-    
+    display: flex;
+    flex-direction: column;
+}
+.inputs>input{
+    margin-bottom: 25px;
+}
+.inputs>textarea{
+    resize: none;
+    padding-top:14px ;
+    padding-bottom:14px ;
+    padding-left:24px ;
+    background-color: #414141;
+    border:none;
+    color: #CACACA;
+    margin-bottom: 25px;
+}
+
+.footer-btn{
+    padding:19px 52px 19px 52px;
+}
+
+.buttons-footer>label{
+    color: #CACACA;
+    margin-left: 22px ;
+}
+.some-text{
+    max-width:363px ;
+    color: #CACACA;
+    line-height: 30px;
+}
+.request{
+    margin-bottom: 50px;
 }
