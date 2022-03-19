@@ -15,15 +15,16 @@
     <div class="header">
         <div class="content">
             <div class="heder__content">
+                <img class="header__burger" src="img/Component 6.svg" alt="">
                 <div class="logo">
                     <img src="img/Group 34.svg" alt="">
                 </div>
                 <nav>
                     <ul class="header__nav">
-                        <li><a href="#">О Нас</a></li>
-                        <li><a href="#">Проекты</a></li>
-                        <li><a href="#">Этапы</a></li>
-                        <li><a href="#">Контакты</a></li>
+                        <li><a class="header__link" href="#">О Нас</a></li>
+                        <li><a class="header__link" href="#">Проекты</a></li>
+                        <li><a class="header__link" href="#">Этапы</a></li>
+                        <li><a class="header__link" href="#">Контакты</a></li>
                     </ul>
                     <img src="img/Group 35.png" alt="">
                 </nav>
@@ -101,7 +102,7 @@
                             Принимая во внимание показатели успешности, перспективное планирование способствует
                             подготовке и реализации новых принципов.
                         </h3>
-                        <button>Подробнее</button>
+                        <button class="border__btn">Подробнее</button>
 
                     </div>
 
@@ -132,144 +133,248 @@
         <div class="how-it-work">
             <h1 class="about-us__title">Как мы работаем</h1>
             <ul class='steps'>
-                <li><a class="active" href="#"> 1 шаг</a></li>
-                <li><a class="active-non" href="#"> 2 шаг</a></li>
-                <li><a class="active-non" href="#"> 3 шаг</a></li>
-                <li><a class="active-non" href="#"> 4 шаг</a></li>
+                <li><a class="active-non" onclick='StepOne()' href="#"> 1 шаг</a></li>
+                <li><a class="active-non" onclick='StepTwo()' href="#"> 2 шаг</a></li>
+                <li><a class="active-non" onclick='StepTree()' href="#"> 3 шаг</a></li>
+                <li><a class="active-non" onclick='StepFour()' href="#"> 4 шаг</a></li>
             </ul>
             <div class="how-it-work__consultation_and_img">
-                <div class="how-it-work__consultation">
-                    <h3>Проводим консультацию</h3>
+                <div class="how-it-work__item one  " >
+                    <div class="how-it-work__consultation">
+                        <h3>Проводим консультацию</h3>
 
-                    <p>Влечет за собой процесс внедрения и модернизации приоритизации разума над эмоциями. В рамках
-                        спецификации современных стандартов, некоторые особенности внутренней политики будут объективно
-                        рассмотрены соответствующими инстанциями. А также представители современных социальных резервов,
-                        инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь
-                        всего лишь частью общей картины, реплицированные с зарубежных источников, современные
-                        исследования подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить
-                        традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности картины в
-                        целом, однако конкретные выводы, разумеется, призваны к ответу.</p>
-                    <div class="how-it-work__buttons">
-                        <button class="first-btn">Подробнее</button>
-                        <button class="second-btn">Договор</button>
+                        <p>Влечет за собой процесс внедрения и модернизации приоритизации разума над эмоциями. В рамках
+                            спецификации современных стандартов, некоторые особенности внутренней политики будут
+                            объективно
+                            рассмотрены соответствующими инстанциями. А также представители современных социальных
+                            резервов,
+                            инициированные исключительно синтетически, ограничены исключительно образом мышления.
+                            Являясь
+                            всего лишь частью общей картины, реплицированные с зарубежных источников, современные
+                            исследования подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить
+                            традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности
+                            картины в
+                            целом, однако конкретные выводы, разумеется, призваны к ответу.</p>
+                        <div class="how-it-work__buttons">
+                            <button class="first-btn">Подробнее</button>
+                            <button class="second-btn">Договор</button>
+                        </div>
                     </div>
-                </div>
-                <div class="how-it-work__img">
-                    <img src="img/Rectangle 18 (1).jpg" alt="" srcset="">
+                    <div class="how-it-work__img">
+                        <img src="img/Rectangle 18 (1).jpg" alt="" srcset="">
+                    </div>
+                    <div class="how-it-work__item  two " >
+                        <div class="how-it-work__consultation">
+                            <h3>Инспектируем все этапы работ</h3>
+
+                            <p>Высокий уровень вовлечения представителей целевой аудитории является четким
+                                доказательством простого факта: высококачественный прототип будущего проекта напрямую
+                                зависит от дальнейших направлений развития. Разнообразный и богатый опыт говорит нам,
+                                что новая модель организационной деятельности говорит о возможностях системы массового
+                                участия. Принимая во внимание показатели успешности, постоянное
+                                информационно-пропагандистское обеспечение нашей деятельности позволяет.
+                            </p>
+                            <div class="how-it-work__buttons">
+                                <button class="first-btn">Подробнее</button>
+                                <button class="second-btn">Договор</button>
+                            </div>
+                        </div>
+                        <div class="how-it-work__img">
+                            <img src="img/Rectangle 18.png" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="how-it-work__item three" >
+                        <div class="how-it-work__consultation">
+                            <h3>Привлекаем подрядчиков</h3>
+
+                            <p>Идейные соображения высшего порядка, а также новая модель организационной деятельности
+                                требует анализа прогресса профессионального сообщества. Высокий уровень вовлечения
+                                представителей целевой аудитории является четким доказательством простого факта:
+                                высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений
+                                развития. Разнообразный и богатый опыт говорит нам, что новая модель организационной
+                                деятельности говорит о возможностях системы массового участия. Принимая во внимание
+                                показатели успешности, постоянное информационно-пропагандистское обеспечение нашей
+                                деятельности позволяет выполнить важные задания по разработке прогресса
+                                профессионального сообщества.
+                            </p>
+                            <div class="how-it-work__buttons">
+                                <button class="first-btn">Подробнее</button>
+                                <button class="second-btn">Договор</button>
+                            </div>
+                        </div>
+                        <div class="how-it-work__img">
+                            <img src="img/Rectangle 19.jpg" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="how-it-work__item  four" displaynone>
+                        <div class="how-it-work__consultation">
+                            <h3>Привлекаем подрядчиков</h3>
+
+                            <p>Идейные соображения высшего порядка, а также новая модель организационной деятельности
+                                требует анализа прогресса профессионального сообщества. Высокий уровень вовлечения
+                                представителей целевой аудитории является четким доказательством простого факта:
+                                высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений
+                                развития. Разнообразный и богатый опыт говорит нам, что новая модель организационной
+                                деятельности говорит о возможностях системы массового участия. Принимая во внимание
+                                показатели успешности, постоянное информационно-пропагандистское обеспечение нашей
+                                деятельности позволяет выполнить важные задания по разработке прогресса
+                                профессионального сообщества.
+                            </p>
+                            <div class="how-it-work__buttons">
+                                <button class="first-btn">Подробнее</button>
+                                <button class="second-btn">Договор</button>
+                            </div>
+                        </div>
+                        <div class="how-it-work__img">
+                            <img src="img/Rectangle 20.jpg" alt="" srcset="">
+                        </div>
+                    </div>
+
                 </div>
             </div>
+            <div class="quest">
+                <h1 class="about-us__title ">Часто задаваемые вопросы</h1>
+                <br>
+                <div class="quest__points">
+                    <div class="quest__point">
+
+                        <div class='contentpoint'>
+                            <h3>Из чего формируется конечная стоимость проекта?</h3>
+                            <img  title='answer' onclick="showinfo(title)" src="img/Rectangle 12 (Stroke) (1).svg ">
+                           
+                        </div> <span class=" textdec answer displaynone" >Являясь всего лишь частью общей картины, непосредственные участники технического
+                                прогресса призывают нас к новым свершениям, которые, в свою очередь, должны быть
+                                своевременно верифицированы. Но высококачественный прототип будущего проекта является
+                                качественно новой ступенью первоочередных требований. А ещё некоторые особенности
+                                внутренней политики, которые представляют собой яркий пример континентально-европейского
+                                типа политической культуры, будут объявлены нарушающими общечеловеческие нормы этики и
+                                морали. И нет сомнений, что явные признаки победы институционализации призывают нас к
+                                новым свершениям, которые, в свою очередь, должны быть указаны как претенденты на роль
+                                ключевых факторов.
+                                <br><br>
+
+                                Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть
+                                призваны к ответу. Явные признаки победы институционализации набирают популярность среди
+                                определенных слоев населения, а значит, должны быть объединены в целые кластеры себе
+                                подобных. Банальные, но неопровержимые выводы, а также многие известные личности
+                                призывают нас к новым свершениям, которые, в свою очередь, должны быть представлены в
+                                исключительно положительном свете. </span>
+
+
+                    </div>
+                    <div class="quest__point">
+
+                        <div class='contentpoint'>
+                            <h3>У меня есть свой проект. Сможем ли мы его доработать / реализовать?</h3>
+                            <img title='answertwo' onclick="showinfo(title)" src="img/Rectangle 12 (Stroke) (1).svg ">
+                           
+                        </div> <span class=" textdec answertwo displaynone" >Являясь всего лишь частью общей картины, непосредственные участники технического
+                                прогресса призывают нас к новым свершениям, которые, в свою очередь, должны быть
+                                своевременно верифицированы. Но высококачественный прототип будущего проекта является
+                                качественно новой ступенью первоочередных требований. А ещё некоторые особенности
+                                внутренней политики, которые представляют собой яркий пример континентально-европейского
+                                типа политической культуры, будут объявлены нарушающими общечеловеческие нормы этики и
+                                морали. И нет сомнений, что явные признаки победы институционализации призывают нас к
+                                новым свершениям, которые, в свою очередь, должны быть указаны как претенденты на роль
+                                ключевых факторов.
+                                <br><br>
+                                Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть
+                                призваны к ответу. Явные признаки победы институционализации набирают популярность среди
+                                определенных слоев населения, а значит, должны быть объединены в целые кластеры себе
+                                подобных. Банальные, но неопровержимые выводы, а также многие известные личности
+                                призывают нас к новым свершениям, которые, в свою очередь, должны быть представлены в
+                                исключительно положительном свете. </span>
+
+                    </div>
+                    <div class="quest__point">
+
+                        <div class='contentpoint'>
+                            <h3>Я выбираю между разными компаниями. В чём ваше отличие?</h3>
+                            <img src="img/Rectangle 12 (Stroke) (1).svg" alt="">
+                        </div>
+
+
+                    </div>
+                    <div class="quest__point">
+
+                        <div class='contentpoint'>
+                            <h3>Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?</h3>
+                            <img src="img/Rectangle 12 (Stroke) (1).svg ">
+                        </div>
+
+
+                    </div>
+                    <div class="quest__point">
+
+                        <div class='contentpoint'>
+                            <h3>Могу ли я вернуть деньги на каком-либо из этапов работ?</h3>
+                            <img src="img/Rectangle 12 (Stroke) (1).svg ">
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
         </div>
-        <div class="quest">
-            <h1 class="about-us__title ">Часто задаваемые вопросы</h1>
-            <br>
-            <div class="quest__points">
-                <div class="quest__point">
-                    <hr class="hr-line">
-                    <div class='contentpoint'>
-                        <h3>Из чего формируется конечная стоимость проекта?</h3>
-                        <img src="img/+х.png" alt="">
+        <div class="footerbg">
+            <div class="footer content">
+                <div class="footerlist ">
+                    <img class='logofooter ' src="img/Group 36 (1).png" alt="">
+                    <ul class="footer-nav">
+                        <li><a class="footer-link" href="#">О нас</a></li>
+                        <li><a class="footer-link" href="#">Проекты</a></li>
+                        <li><a class="footer-link" href="#">Отзывы</a></li>
+                        <li><a class="footer-link" href="#">Договор оферты</a></li>
+                        <li><a class="footer-link" href="#">Договор подряда</a></li>
+                        <li><a class="footer-link" href="#">Конфиденциальность</a></li>
+                        <li><a class="footer-link" href="#">Партнёрское соглашение</a></li>
+                    </ul>
+
+                    <div class="footer-sotial">
+                        <a href="#">
+                            <img src="img/social media (1).png" alt="" srcset="">
+                        </a>
+                        <a href="#">
+                            <img src="img/vk (1).svg" alt="" srcset="">
+                        </a>
+                        <a href="#">
+                            <img src="img/instagram (3).svg" alt="" srcset="">
+                        </a>
+
                     </div>
-
-                    <hr class="hr-line">
                 </div>
-                <div class="quest__point">
-                    <hr class="hr-line">
-                    <div class='contentpoint'>
-                        <h3>У меня есть свой проект. Сможем ли мы его доработать / реализовать?</h3>
-                        <img src="img/+х.png" alt="">
+                <div class="request">
+                    <h1 class="about-us__title color">Оставить заявку</h1>
+
+                    <div class="inputs">
+                        <input type="text" placeholder="Фамилия,имя и отчество*" required>
+                        <input type="email" placeholder="E-mail*" required>
+
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
                     </div>
-
-                    <hr class="hr-line">
-                </div>
-                <div class="quest__point">
-                    <hr class="hr-line">
-                    <div class='contentpoint'>
-                        <h3>Я выбираю между разными компаниями. В чём ваше отличие?</h3>
-                        <img src="img/+х.png" alt="">
+                    <div class="buttons-footer">
+                        <button class="first-btn footer-btn">Отправить данные</button>
+                        <label><input type="checkbox" name="" id=""> Согласен на обработку данных</label>
                     </div>
-
-                    <hr class="hr-line">
                 </div>
-                <div class="quest__point">
-                    <hr class="hr-line">
-                    <div class='contentpoint'>
-                        <h3>Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?</h3>
-                        <img src="img/+х.png" alt="">
-                    </div>
-
-                    <hr class="hr-line">
-                </div>
-                <div class="quest__point">
-                    <hr class="hr-line">
-                    <div class='contentpoint'>
-                        <h3>Могу ли я вернуть деньги на каком-либо из этапов работ?</h3>
-                        <img src="img/+х.png" alt="">
-                    </div>
-
-                    <hr class="hr-line">
-                </div>
-
-
-
+                <span class="some-text">
+                    Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого
+                    факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели
+                    развития. Таким образом, консультация с широким активом обеспечивает широкому кругу (специалистов)
+                    участие в формировании стандартных подходов.
+                </span>
             </div>
+
         </div>
 
 
-    </div>
-    <div class="footerbg">
-        <div class="footer content">
-            <div class="footerlist ">
-                <img  class = 'logofooter 'src="img/Group 36 (1).png" alt="">
-                <ul class="footer-nav">
-                    <li><a class="footer-link" href="#">О нас</a></li>
-                    <li><a class="footer-link" href="#">Проекты</a></li>
-                    <li><a class="footer-link" href="#">Отзывы</a></li>
-                    <li><a class="footer-link" href="#">Договор оферты</a></li>
-                    <li><a class="footer-link" href="#">Договор подряда</a></li>
-                    <li><a class="footer-link" href="#">Конфиденциальность</a></li>
-                    <li><a class="footer-link" href="#">Партнёрское соглашение</a></li>
-                </ul>
-
-                <div class="footer-sotial">
-                    <a href="#">
-                        <img src="img/social media (1).png" alt="" srcset="">
-                    </a>
-                    <a href="#">
-                        <img src="img/vk (1).svg" alt="" srcset="">
-                    </a>
-                    <a href="#">
-                        <img src="img/instagram (3).svg" alt="" srcset="">
-                    </a>
-
-                </div>
-            </div>
-            <div class="request">
-                <h1 class="about-us__title color">Оставить заявку</h1>
-
-                <div class="inputs">
-                    <input type="text" placeholder="Фамилия,имя и отчество*" required>
-                    <input type="email" placeholder="E-mail*" required>
-
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Сообщение">fdg</textarea>
-                </div>
-                <div class="buttons-footer">
-                    <button class="first-btn footer-btn">Отправить данные</button>
-                    <label><input type="checkbox" name="" id=""> Согласен на обработку данных</label>
-                </div>
-            </div>
-            <span class="some-text">
-                Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого
-                факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели
-                развития. Таким образом, консультация с широким активом обеспечивает широкому кругу (специалистов)
-                участие в формировании стандартных подходов.
-            </span>
-        </div>
-
-    </div>
-
-
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="js/script.js"></script>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="js/script.js"></script>
 </body>
 
 </html>

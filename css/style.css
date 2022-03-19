@@ -232,6 +232,7 @@ nav img{
 }
 .block_info{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 100px;
 }
@@ -341,8 +342,9 @@ p{
     height: 460px;
     
 }
-.how-it-work__consultation_and_img{
-    display: flex;
+.how-it-work__item{
+    /* display: flex; */
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -351,16 +353,15 @@ p{
 
 }
 .quest__points{
-    width: 1770px;
+    /* width: 1770px; */
 
     
 }
 .hr-line {
 
-	padding: 0;
-	height: 0;
-	border: none;
-	border-top: 1px solid rgb(189, 189, 189);
+	
+	height: 3px;
+	background-color:  rgb(189, 189, 189);
 }
 .contentpoint{
     display: flex;
@@ -446,7 +447,7 @@ p{
 
 .buttons-footer>label{
     color: #CACACA;
-    margin-left: 22px ;
+    margin-left: 22px;
 }
 .some-text{
     max-width:363px ;
@@ -455,4 +456,242 @@ p{
 }
 .request{
     margin-bottom: 50px;
+}
+ .header__link{
+    position: relative;
+}
+.header__link:hover::after{
+    content:'';
+    position: absolute;
+    display: block;
+    margin: 2px 0;
+	padding: 0;
+    width: 100%;
+	height: 2px;
+	background-color: #FF9900;
+}
+
+.header__link:focus{
+    border:2px solid #FF9900;
+
+}
+.header__link:active{
+    border:none;
+    color:#FF9900 ;
+}
+
+.content__btn:hover{
+    background-color: rgba(255,153, 0, 0.7);
+}
+.content__btn:focus{
+    background-color: rgba(255,153, 0, 0.7);
+}
+.content__btn:active{
+    background-color: rgb(225,103, 14);
+}
+
+.border__btn:hover{
+    background-color: #FF9900;
+
+}
+.border__btn:focus{
+    background-color: #FF9900;
+
+}
+.border__btn:active{
+    background-color: rgb(225,103, 14);
+    border-color: rgb(225,103, 14);
+
+}
+
+.first-btn:hover{
+    background-color: rgba(255,153, 0, 0.7);
+
+}
+.first-btn:focus{
+    background-color: rgba(255,153, 0, 0.7);
+
+}
+.first-btn:active{
+    background-color:  rgb(225,103, 14);
+
+}
+.second-btn:hover{
+    background-color:#666666 ;
+    border-color: #666666;
+    color:white ;
+
+}
+.second-btn:focus{
+    background-color:#666666 ;
+    border-color: #666666;
+    color:white ;
+
+}
+.second-btn:active{
+    background-color:#000000 ;
+    border-color: #000000;
+    color:white ;
+
+}
+.active-non:hover{
+    color: #FF9900;
+}
+.active-non:focus{
+    color: black;
+    border:2px solid #FF9900;
+}
+.active-non:active{
+    color: #E1670E;
+
+}
+
+
+.contentpoint{
+    border-bottom: 2px solid #666666;
+    border-top: 2px solid #666666;
+    padding-top: 30px ;
+    padding-bottom: 30px ;
+
+}
+.contentpoint:hover{
+    color: #FF9900;
+    border-color: #FF9900;
+    
+}
+.contentpoint>img:hover{
+    background-color: #FF9900;
+    fill: white;
+
+}
+
+.contentpoint>img{
+    padding: 10px ;
+    background-color:#ECECEC ;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.contentpoint:focus{
+    color: #FF9900;
+    border-color: #FF9900;
+    
+}
+.contentpoint>img:focus{
+    background-color: #FF9900;
+    fill: white;
+
+}
+.contentpoint:active{
+    color: #000000;
+    border-color: #000000;
+    
+}
+.contentpoint>img:active{
+    background-color:#ECECEC ;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+.inputs>input:hover{
+    outline: 0;
+    background-color: #666666;
+}
+.inputs>input:focus{
+    outline: 0;
+    background-color: #666666;
+}
+
+.inputs>input:active{
+    outline: 0;
+    background-color: #666666;
+    
+}
+.inputs>textarea:hover{
+    outline: 0;
+    background-color: #666666;
+}
+.inputs>textarea:focus{
+    outline: 0;
+    background-color: #666666;
+}
+
+.inputs>textarea:active{
+    outline: 0;
+    background-color: #666666;
+    
+}
+.hidden{
+    display: none;
+}
+.one{
+    display: flex;
+}
+
+.two{
+    display:none
+}
+.three{
+    display:none
+}
+.four{
+    display:none
+}
+
+.displaynone{
+    display: none;
+}
+
+.textdec{
+    width: 1000px;
+}
+.header__burger{
+    display: none;
+}
+@media (max-width:1024px){
+
+    h1{
+        font-size: 48px ;
+    }
+    p{
+        font-size: 16px ;
+
+    }
+    span{
+        font-size: 16px ;
+
+    }
+    .content{
+        max-width: 924px;
+    }
+    .header__nav{
+        display:none;
+    }
+    .header__burger{
+        display: block;
+    }
+    .content__info h1{
+        font-size: 60px;
+    }
+    .content__info h3{
+        font-size:20px ;
+        width:660px ;
+    }
+    .border-info H3{
+        font-size: 16px ;
+        width: 454px;
+
+    }
+    .imge_info{
+        margin-bottom: 32px ;
+        
+    }
+    
+    .some-text{
+        display:none;
+    }
 }
